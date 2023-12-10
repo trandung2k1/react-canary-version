@@ -1,4 +1,3 @@
-'use client';
 import { use } from 'react';
 export function Message({ messagePromise }) {
   const messageContent = use(messagePromise);
